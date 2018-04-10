@@ -24,18 +24,18 @@
         android:id="@+id/bTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="252dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginStart="84dp"
+        android:onClick="Party"
         android:text="2"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="Party" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/bThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="252dp"
+        android:layout_marginBottom="132dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:onClick="Party"
@@ -49,11 +49,11 @@
         android:id="@+id/bFour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="252dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="84dp"
+        android:onClick="Party"
         android:text="4"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="Party"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
