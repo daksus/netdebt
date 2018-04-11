@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,16 +20,20 @@ class MainActivity : AppCompatActivity() {
 
         when (view.id) {
             R.id.bTwo -> {
-                val randomIn = Intent(this, SecondActivity::class.java)
-                randomIn.putExtra("user", "huihefuihew" )
-                startActivity(randomIn)
+                val numberPerson = Intent(this, SecondActivity::class.java)
+                numberPerson.putExtra("key", "2")
+                startActivity(numberPerson)
 
             }
             R.id.bThree -> {
-                textView.setText("3")
+                val numberPerson = Intent(this, SecondActivity::class.java)
+                numberPerson.putExtra("key", "3")
+                startActivity(numberPerson)
             }
             R.id.bFour -> {
-                textView.setText("4")
+                val numberPerson = Intent(this, SecondActivity::class.java)
+                numberPerson.putExtra("key", "4")
+                startActivity(numberPerson)
             }
         }
 
