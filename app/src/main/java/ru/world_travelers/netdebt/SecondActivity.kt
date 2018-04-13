@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_second.*
 
+
 class SecondActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
